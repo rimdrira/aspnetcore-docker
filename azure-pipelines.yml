@@ -23,4 +23,4 @@ steps:
   inputs:
     repository: 'https://hub.docker.com/repository/docker/rimdrira/dockerdemo'
     command: 'push'
-    tags: 'rimdrira/dockerdemo/$(Build.BuildId)'
+    tags: '$(Build.BuildId)'
