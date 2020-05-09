@@ -17,6 +17,8 @@ steps:
   displayName: 'dotnet build $(buildConfiguration)'
 - task: Docker@2
   inputs:
+    containerRegistry: 'RimCnxionToDockerhub'
+    repository: 'rimdrira/azurerepo'
     command: 'build'
     Dockerfile: '**/Dockerfile'
 - task: Docker@2
