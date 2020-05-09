@@ -22,5 +22,5 @@ steps:
 - task: Docker@2
   inputs:
     containerRegistry: 'RimCnxionToDockerhub'
-    repository: '/ azurerepo'
+    repository: 'rimdrira/azurerepo'
     command: 'push'
