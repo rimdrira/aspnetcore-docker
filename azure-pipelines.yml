@@ -19,7 +19,3 @@ steps:
   inputs:
     command: 'build'
     Dockerfile: '**/Dockerfile'
-- task: Docker@2
-  inputs:
-    repository: 'https://hub.docker.com/repository/docker/rimdrira/dockerdemo'
-    command: 'push'
